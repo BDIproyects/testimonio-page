@@ -1,0 +1,48 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build output
+dist/
+dist-ssr/
+.temp/
+.out/
+.vite/
+
+# Local env files (¡no subas tus claves de Firebase!)
+.env.local
+.env
+.env.*.local
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# TypeScript
+*.tsbuildinfo
+*.tsbuildinfo.tsbuildinfo
+
+# Vite temp
+node_modules/.vite/
+node_modules/.vite-temp/
+
+# Firebase (solo si usas emuladores localmente)
+.firebase/
