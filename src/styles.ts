@@ -1,4 +1,4 @@
-import { CSSProperties } from 'react';
+import type { CSSProperties } from 'react';
 
 // Definición de estilos CSS en formato JS
 export const styles: { [key: string]: CSSProperties } = {
